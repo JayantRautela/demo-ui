@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Partner from "@/components/Partner";
 
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       {/* More components to add */}
       <Hero />
+      <Partner />
     </div>
   );
 }
