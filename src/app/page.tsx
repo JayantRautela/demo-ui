@@ -1,3 +1,4 @@
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Partner from "@/components/Partner";
 
@@ -8,6 +9,7 @@ export default function Home() {
       {/* More components to add */}
       <Hero />
       <Partner />
+      <Features />
     </div>
   );
 }
