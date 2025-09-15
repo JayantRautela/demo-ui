@@ -1,4 +1,5 @@
 import ChooseUsSection from "@/components/Choose";
+import FAQSection from "@/components/FAQSection";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Partner from "@/components/Partner";
@@ -14,6 +15,7 @@ export default function Home() {
       <Features />
       <ChooseUsSection />
       <ReviewSection />
+      <FAQSection />
     </div>
   );
 }
